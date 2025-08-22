@@ -1,0 +1,13 @@
+Como se comporta uan variable en python
+Cuando se almacena en memoria es algo asi
+Ejmplo    |  Variable | Valor | DirecMemo
+Edad=30   |  edad     | 30    | 0x3333
+Peso=60.5 |  peso     | 60.5  | 0x4444
+
+Nota Si cambiamos el valor lo que hacemos es volver asignar
+otra DirecMemo a otro. 
+     Edad = 30 #se pierde este objeto 30
+     Edad = 50
+     print(Edad)
+     50
+En python todas la variables almacenan objetos
