@@ -1,0 +1,44 @@
+Una cadena es un tipo de dato que se utiliza para almacenar
+una secuencia de caracteristicas, normalmente se usa para texto
+### Los caracteres de una cadena estan indexada de manera secuencial "H,O,L,A"###
+Carateristas especial
+las cadenas pueden incluir caracteres especiales
+nueva linea \n
+tabulador \t
+Comilla simple, comilla doble \' o \"
+barra invertida '\\'
+exiesten mas caracteres pro estos son los mas principales
+######Concatenación de cadnas#####
+la concatenación de cadenas es una operación
+que permite combinar doas o mas cadena
+en python existen vairas formas de concatenar
+concatenacion = "hola" + "mundo"
+usar la funcion join
+"".join[]
+Formateo de cadena
+Formateo de cadenas 
+en python hay varias formas de dar Formateo
+el mejor es el f-string xd 
+es asi 
+resultado = f'Hola {variable}.'
+resultado = 'Hola{}'.format(variable)
+Metodos en cadenas
+upper() cambiar la letras a mayuscula
+lower() cambiar las letras a minuscula
+strip() Elimina espacios en blanco al inicio y final de la cadena
+lens() obtener el largo de una cadena 
+SubCadenas en python 
+una subcadena es una parte de una cadena principal,
+y hay varias maneras de extraer SubCadenas en python
+podemos extraer subcadenas, buscarlas, remplazarlas,
+entre otras operación
+ExtraerCadena
+subcadena = cadena[inicio:fin]
+find("mundo") busca subcadenas en una cadena
+Remplazar subcadenas(replace):
+cadena = "Hola mundo"
+nueva_cadena = cadena.replace("mundo", "a todos")
+split(',') extraer subcadenas por sepadores
+datos = 'Juan, 30, Mexico'
+lista =datos.split(",")
+print(lista) #['Juan','30','Mexico']
