@@ -1,5 +1,5 @@
 print("** Operadores de comparacion (Relaciones)**")
-a, b = 10, 5
+a, b = 5, 5
 print(f"Valor de a: {a} , b: {b}")
 # operador ==
 resultado = (a == b)
