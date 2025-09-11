@@ -1,0 +1,25 @@
+Conversion de tipos de datos
+La conversion de tipos de datos,
+tambien conocido como casting, es una 
+tecnica para manipular datos que no estan en el
+tipo requerido
+
+Podemos hacer conversion desde y hacia distintos tipos de datos
+Convertir a entero    ---> funcion int()
+convertir a float     ---> funcion float()
+convertir a cadena    ---> funcion str()
+convertir a booleano  ---> funcion bool()
+
+input
+Interactividad: Permite a los usuarios de nuestro programas
+proporcionar valores dinamicos, en lugar de utilizar valores 
+en codigo duro o estaticos
+Sencillez: La funcion input es muuy facil de usar y sol nesecita,
+opcionalmente indicar la cadena o mensaje a mostrar al usuario,
+para que este sepa lo que se le esta solicitando.
+Tipo de dato: Siempre devuelve una cadena, si requiere otro tipo
+hay que convertrlo
+
+Generar numeros aleatorios
+randint() esta en otro modulo
+con import random 

@@ -1,0 +1,27 @@
+Operadores de comparacion 
+los operadores condicionesl se utilizan para comparar dos valores el Resultado
+siempre es un valor booleano true or false dependiendo de la condicionales
+Operador de Igualdad (==)
+#Sintaxis operacion Igualdad
+a== basicos
+#Ejemplo operacion Igualdad
+print (5==5) #true  
+print (6==5) #false
+#Sintaxis operador distintos !=
+a != b
+print(5 != 5)#false
+print(5 != 6)#true
+#Sintaxis operador menor que (<)
+print(3<5)#true
+print(5<3)#false
+#Sintaxis operador menor igual que (<=)
+print(3<=5)#true
+print(5<=5)#true
+print(6<=5)#false
+#Sintaxis mayor (>)
+print(5>3)#true
+print(3>5)#false
+#Sintaxis operador mayor o igual que (>=)
+print(5>=3)#true
+print(5>=5)#true
+print(3>=5)#false

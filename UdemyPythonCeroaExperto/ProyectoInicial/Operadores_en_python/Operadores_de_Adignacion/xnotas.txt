@@ -1,0 +1,27 @@
+Operadores de Asignacion
+El operador de asignacion se utiliza para asignar
+un valor a una variable 
+##Sintaxis operador asignacion
+Variable = valor
+##Ejemplo Operador Asignacion
+numero = 10 
+texto = "Hola, mundo"
+##Asignacion encadenada
+En python tambien contamos con la asignacion
+encadenada esto permite asignar el mismo valor a
+multriples variables
+variable1 = variable2 = ... = valor
+#Ejemplo. inicializar contador
+
+Contador1 = coantador2 = 0
+Operadores de asignacion compuesta
+los operadores de asignacion compuesta combinan una 
+operacion aritmetica con una asignacion, haciendo las operaciones
+mas conscisas
+los operadores puedne ser +=, -=,  *=, /=, etc 
+#Sintaxis operacion asignacion compuesta
+variable Operador = valor
+#Ejemplo Operador Asignacion Commpuesta 
+contador = 0
+contador += 1 # contador = contador + 1
+ 

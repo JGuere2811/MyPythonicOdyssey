@@ -1,0 +1,16 @@
+Operadores en python
+los operadores son simbolos especiales que
+eestan diseñados para realizar operaciones
+especiale. tenemos varios tipos, como son:
+Operadores Aritmeticos:
+Permiten realizar calculos matematicos basicos,
+como suma, resta, multiplicacion o division
+Operadores de Asignacion: Se utiliza para asignar valores
+a variable
+Operador de Comparacion: Se utiliza para comparar un valor
+con otro
+Operadores Logicos : Se utilizan para combinar expresiones
+condicionales o Logicos
+Operadores de identidad: Se utilizan para comprar si datos
+variables son el mismo objetivco
+Operadores de membresia Se utilizan para probar si una secuencia

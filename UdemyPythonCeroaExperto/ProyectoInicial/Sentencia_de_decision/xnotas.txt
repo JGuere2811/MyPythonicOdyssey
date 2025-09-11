@@ -1,0 +1,17 @@
+###Sentencias de decision###
+las sentencias de decision nos permite controlar
+le flujo de ejecucion de un programas
+###las estructuras que podemos usar son : if, else y elif
+Las sentencias if permiten ejecutar un bloque de codigo si la
+condicion a evaluar es verdadera:
+Una condicion es una expresion que evalua a True o False,
+edad >= 18
+
+#Sintaxis sentencias if
+if condicion:
+    #Bloque de codigo que se
+    #ejecuta si la condicion es true
+#Ejemplo sentencia if
+edad = 30
+if edad >= 18:
+    print("Eres mayor de edad. ")

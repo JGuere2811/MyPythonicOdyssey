@@ -1,0 +1,20 @@
+Operadores Logicos
+Los operadores logicos se utilizan para realizar operaciones
+logicas con valres voleanos
+
+Operador Logico and (y): Devuelve True si ambos operadores
+son verdaderos
+a = true
+b = true
+print(a and b) #true
+
+Operador Logico Or (o): Devuelve True si cualquiera de los operados
+es verdadero
+a = true
+b = false
+print(a and b) #true
+
+Operador Logico not (no): Invierte el valor del operando, Es un operador
+unario
+a = true 
+print(not a) #false

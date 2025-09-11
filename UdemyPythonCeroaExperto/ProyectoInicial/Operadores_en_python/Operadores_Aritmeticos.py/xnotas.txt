@@ -1,0 +1,13 @@
+Operadores Aritmeticos
+los operadores aritmeticos nos permiten relaizar calculos
+matematicos basicos entre numeros
+Ejemplo
+Suma(+): Suma dos operados
+Resta(-) Resta dos operadores
+Multriplicación(*): Multriplica dos operadores
+Division(/): Divide el primer operador entre el segundo
+##Resultado un valor flotante##
+Division entera(//): Divide el primer operado entre el segundo
+##Resultado un tipo entero
+Modulo(%): Regresa el residuo de la division
+Exponente(**) Eleva el primer operador a la porencia del segundo
