@@ -15,3 +15,15 @@ if condicion:
 edad = 30
 if edad >= 18:
     print("Eres mayor de edad. ")
+
+###Operador Ternario###
+Es uan forma compacta de agregar una condicion en python y
+el objetivo es asignar un valor a una variable dependiendo del valor
+
+#Sintaxis operador Ternario
+resultado = valor_si_verdadero if codicion else valor_si_falso
+
+#Ejemplo Operador Ternario
+edad = 18
+es_adulto = "si" if edad >= 18 else "no"
+print(es_adulto)
