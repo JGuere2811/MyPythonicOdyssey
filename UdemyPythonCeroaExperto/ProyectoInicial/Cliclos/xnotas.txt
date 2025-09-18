@@ -1,0 +1,19 @@
+#######ciclos en python#####
+los ciclos en python son estructuras de
+control que repiten ina serie de instrucciones
+hasta que se cumple una condiccion
+tenemos dos tipos de ciclos for y while
+
+
+#sintaxis ciclo while
+while condicion:
+    #Bloque de codigo a ejecutar
+
+#Ejemplo ciclo while
+#imprimir de 1 a 3
+contador = 1
+while contador <= 3:
+    print(contador)
+    contador += 1
+Sale : 1,2,3
+    
