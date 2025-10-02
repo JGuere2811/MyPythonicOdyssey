@@ -16,4 +16,21 @@ while contador <= 3:
     print(contador)
     contador += 1
 Sale : 1,2,3
+
+#Sintaxis ciclo for
+for variable in secuencia:
+    #Bloque de codigo a ejecutar    
+
+#Ejemplo ciclo for
+cadena = "Hola mundo"
+for letra in cadena:
+    print(letra, end= " ")
+#Hola mundo
+ciclos
+ejercicios acumulador suma
+1+2+3+4+5=15
+Menu interactivo
+Menu:
+funcion range en python 
+range(inicio,fin,incremento)
     
