@@ -21,4 +21,27 @@ print('Contactos en la agenda:')
 print(agenda)
 #Acceder a la informacion de un contacto en especifico
 print(f'''\nInformacion de contacto de manuel:
-      Telefono: {agenda['Manuel']['telefono']}''')
+    Telefono: {agenda['Manuel']['telefono']}
+    Email: {agenda.get('Manuel').get('email')}
+    direccion: {agenda['Manuel']['direccion']}  
+    ''')
+#Agregar un nuevo contacto
+agenda['Marilin'] = {
+    'telefono': '9234567890',
+    'email': 'marilin@gmail.com',
+    'direccion': 'Calle 8 # 123'
+    }
+print(agenda)
+
+#Eliminar un contacto existente
+agenda.pop('Fatyma')
+print(agenda)
+
+#Mostrar los contactos de la agenda
+print('\n Contactos en la angenda: ')
+for nombre, detalles in agenda.items():
+    print(f'''Nombre: {nombre}
+    Telefono: {detalles.get('telefono')}
+    Email: {detalles.get('email')})
+    Direccion: {detalles.get('direccion')}
+    ''')
