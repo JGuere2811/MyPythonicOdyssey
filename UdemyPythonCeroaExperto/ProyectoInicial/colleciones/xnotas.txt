@@ -1,0 +1,85 @@
+#colecciones en python
+ una coleccion es un conjunto de datos, en python tenemos varios tipo
+ que podemos utilizar con el objetivo de almacenar, organizar y manipula
+ multriples conjuntos de datos, por ello tambien se les conoce como
+ estructura de datos.
+ tipos a estudiar:
+ listas
+ tuplas
+ set(conjunto)
+ diccionarios
+ estos son los tipos mas comunes y mas utilizados. comencemos con el tipo
+ listas
+ ####lista en python###
+ Las listas son colecciones ordenadas y mutables de elementos que pueden
+ ser de diferentes tipos. las listas son dinamicas, lo que significa que
+ cambiar de tamaño, pódemos añadir, modificar o eliminar elementos.
+
+#sintaxis listas
+mi_lista = [elemento1, elemento2, elemento3]
+
+
+#Ejemplo de lista
+numeros = [1,2,3,4,5]
+frutas = ["manzanas","banana","cereza"]
+mixta = [1,"dos",3.0,[4, 5]]
+
+###lista de reporducccion
+crea un programa para administrar una lista de canciones
+debes solicitar al usuario cuantas canciones desea agregar a la lista
+y posteriormente ir solicitado cada cancion que desea agregar a la lista
+finalmente debe desplegar la lista de canciones en orden alfabetico
+####tuplas en python
+las tuplas son similares a las listas, ya que tambien son una coleccion de
+datos ordenados, pero las tuplas son inmitables, lo que significa que una 
+vez  "CREADA NO ES POSIBLE MODIFICAR SU TAMAÑO, NI PODEMOS AGREGAR MAS
+ELEMENTOS NI ELIMINARLOS".
+la tupla suelen utilizarse para crear colecciones de datos que no deben
+cambiar con el tiempo
+#sintaxis de una tupla
+m1_tupla = (elemento1,elemento2,elemento3)
+m1_tupla_sin_parentesis = elemento1,elemento2,elemento3
+#Ejemplo de tuplas 
+tupla_numeros = (1, 2, 3, 4, 5)
+tupla_mixta = ("manzana", 10, 3.14, [1, 2, 3])
+m1_tupla_sin_parentesis = 'juan', 'karla'
+tupla_un_elemento, = 10 #La coma no es opcional
+###Sets en pythonlos sets(conjuntos) son colecciones de datos no ordenada
+de elementos unicos. Son muy utiles cuando debemos asegurarnos de que no
+haya elementos duplicados en nuestra coleccion
+#Sintaxis de un set
+mi_set = {elemento1, elemento2, elemento3}
+
+#Ejemplo de sets
+set_a = {1, 2, 3, 4}
+set_b = {3, 'Juan', True, 6.5}
+numeros = {1,2,2,3,4}
+print(numeros) #Salida: {1, 2, 3, 4 }
+####Lista de suscripcitores
+Crear un programa para administrar una lista de suscriptores utilizando
+su email.
+Supon que una persona se suscribe al boletion informativo utilizado su email
+A medida que la lista crece, hay que asegurarnos que no tengamos suscriptores
+duplicados
+Tambien debemos poder agregar y eliminar suscriptores
+#Diccionarios en python
+Los diccionarios son una coleccion de datos ordenada (3.7+) y se almacenar
+en forma de llave:valor. Es una estructura muy util cuando necesitas 
+asociar un conjunto de  valores con un conjunto de claves o llaves
+que sirven como indices unicos
+#sintaxis de un diccionario
+mi_diccionario = {clave1: valor1, clave2: valor2}
+
+#Ejemplo o de un diccionarios
+personas = {'nombre': 'Pedro', 'edad': 30, 'es_cansado': True}
+
+#####Agenda de contactos
+Crear una agenda de contactos, utilizado un diccionario de python
+con la siguiente estructura
+agenda{
+    nombre{
+        telefono
+        email
+        direccion
+    }
+}
