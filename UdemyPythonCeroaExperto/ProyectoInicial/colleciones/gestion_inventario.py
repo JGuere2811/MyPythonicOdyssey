@@ -16,3 +16,32 @@ for indice in range(numero_productos):
 
 #Mostrar el inventario inicial
 print(f'\nInventario inicial: {inventario}')
+
+#buscar un producto por id
+id_buscar = int(input('\nIngresa el ID del producto a buscar: '))
+producto_encontrado = None
+
+for producto in inventario:
+    if producto.get('id') == id_buscar:
+        producto_encontrado = producto
+        break
+
+if producto_encontrado is not None:
+    print('Informacion de producto encontrado: ')
+    print(f'''Id: {producto_encontrado.get('id')}
+    Nombre: {producto_encontrado.get('nombre')}
+    Precio: {producto_encontrado.get('precio')}
+    Cantidad: {producto_encontrado.get('catidad')}''')
+
+else:
+    print(f'Producto con id {id_buscar} No encontrado')
+
+#Mostrar el inventario detallado
+
+print(f'\n ---- Inventario Detallado ----')
+
+for producto in inventario:
+    print(f'''Id: {producto.get('id')}
+    Nombre: {producto.get('nombre')}
+    Precio: {producto.get('precio')}
+    Cantidad: {producto.get('cantidad')}''')
